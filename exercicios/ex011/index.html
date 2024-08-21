@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5</title>
+</head>
+<body>
+   <h1>imagens dinamicas</h1>
+   <p>tente abrir este site em varios dispositivos diferentes ou diminue e aumente no seu navegador</p> 
+   <picture>
+    <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+    <img src="imagens/grande.png" alt="imagem flexivel">
+   </picture>
+   <h1>reproduzindo audio</h1>
+  <!-- mp3 wav ogg -->
+  <audio preload="metadata" autoplay controls >
+      <source src="midia/shandr - Beach Bum (freetouse.com).mp3" type="audio/mpeg">
+      <source src="midia/shandr - Beach Bum (freetouse.com).ogg" type="audio/ogg">
+      <source src="midia/shandr - Beach Bum (freetouse.com).wav" type="audio/wav">
+      <p>seu navegador nao carrega audio, baixe ele <a href="midia/shandr - Beach Bum (freetouse.com).mp3">aqui</a></p>
+  </audio>
+</body>
+</html>
