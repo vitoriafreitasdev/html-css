@@ -3,4 +3,4 @@
 
 estou aprendendo a criar sites e mexer no repositorios
 
-<a href="https://vitoriafreitasdev.github.io/html-css/exercicios/ex001/">Executar o primeiro exercicio 001</a>
+<a href="https://vitoriafreitasdev.github.io/html-css/exercicios/ex001/"target="_blank">Executar o primeiro exercicio 001</a>
