@@ -28,12 +28,13 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    font-family: var(--fonte2);
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 8vw;
 }
 
 header > p {
@@ -56,6 +57,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
+    font-size: 3vw;
 }
 section.normal{
     background-color: white;
@@ -63,12 +65,14 @@ section.normal{
 }
 
 section.imagem{
+
     background-color: rgb(51, 51, 51);
     color: white;
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
 }
 
